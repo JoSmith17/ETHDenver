@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Frictionless Sales Tax Payment</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Shipping Information</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Search</a>
+            <a href="index.html">Shopping Cart</a>
+        </nav>
+    </header>
+    <form>
+        <label for="name">Name</label>
+        <input value="name" type="text">
+        <label for="email">Email</label>
+        <input value="dummy@app.com" type="text">
+        <label for="phone">Phone</label>
+        <input value="(123)456-7890" type="text">
+        <label for="street">Street</label>
+        <input value="1000 N Broadway" type="text">
+        <section class="location">
+            <label for="city">City</label>
+            <input value="Denver" type="text">
+            <label for="state">State</label>
+            <input value="CO" type="text">
+            <label for="zip">Zip</label>
+            <input value="80205" type="text">
+        </section>
+        <label for="country">Country</label>
+        <input value="USA" type="text">
+    </form>
+    <section class="overall">
+        <div class="tax">
+            <h3>Tax(10%)</h3>
+            <h4>5.00 DAI</h4>
+        </div>
+        <div class="total">
+            <h3>Total</h3>
+            <h4>55.00 DAI</h4>
+        </div>
+    </section>
+    <button onclick="metaMask()">Pay with Meta Mask
+        <!-- <a href="photo.html">Pay with Meta Mask</a> -->
+    </button>
+<script src="web3.min.js"></script>
+</body>
+</html>

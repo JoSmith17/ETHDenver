@@ -1,0 +1,93 @@
+body {
+    /* background-color: rgb(158, 151, 151);
+    color: rgb(112, 236, 203); */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 25px;
+    background-color: orange;
+    padding-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+.items img {
+    height: 150px;
+    width: 170px;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    float: left;
+}
+
+.cost p {
+    margin: 150px 0px; 
+}
+
+.tax, .total {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.tax h4, .total h4 {
+    margin-right: 50px;
+}
+
+button {
+    position: absolute;
+    text-align: center;
+    padding: 12px 28px;
+    background-color: orange;
+    font-size: 15px;
+    margin-left: 85%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 25px 10px;
+    font-size: 17px;
+}
+
+.location input {
+    margin-right: 200px;
+}
+
+.meta {
+    display: block;
+    margin-top: 150px; 
+    margin-left: auto;
+    margin-right: auto;
+}
